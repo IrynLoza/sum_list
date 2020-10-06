@@ -24,6 +24,11 @@ The sum of an empty list is zero::
 def sum_list(num_list):
     """Return the sum of all numbers in list."""
 
+    result = 0
+    for num in num_list:
+        result+= num
+    return result    
+
 
 if __name__ == '__main__':
     import doctest
