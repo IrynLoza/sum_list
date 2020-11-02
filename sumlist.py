@@ -23,7 +23,7 @@ The sum of an empty list is zero::
 
 def sum_list(num_list):
     """Return the sum of all numbers in list."""
-
+    # Cool coments 1  
     result = 0
     for num in num_list:
         result+= num
@@ -32,5 +32,6 @@ def sum_list(num_list):
 
 if __name__ == '__main__':
     import doctest
+    # Cool coments 2
     if doctest.testmod().failed == 0:
         print("\n*** ALL TESTS PASSED. BOOYA!!\n")
